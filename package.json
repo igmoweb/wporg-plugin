@@ -1,0 +1,27 @@
+{
+  "name": "wporg-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ignacio Cruz <igmoweb@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-regex-replace": "^0.4.0",
+    "grunt-shell": "^3.0.1",
+    "grunt-wp-i18n": "^1.0.3",
+    "load-grunt-tasks": "^5.1.0"
+  },
+  "wporg": {
+    "slug": "my-plugin",
+    "testedupto": "5.3.2",
+    "requires": "4.8",
+    "textdomain": "my-plugin"
+  }
+}

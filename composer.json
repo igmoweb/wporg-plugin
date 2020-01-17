@@ -1,0 +1,28 @@
+{
+  "name": "ignacio/wporg-plugin",
+  "authors": [
+    {
+      "name": "Ignacio Cruz",
+      "email": "igmoweb@gmail.com"
+    }
+  ],
+  "require": {},
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/igmoweb/dotfiles.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/igmoweb/dotfiles-installer.git"
+    }
+  ],
+  "extra": {
+    "dotfiles": [
+      "readme.txt"
+    ]
+  },
+  "require-dev": {
+    "igmoweb/dotfiles": "^1.0"
+  }
+}
